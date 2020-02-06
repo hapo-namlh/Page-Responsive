@@ -253,11 +253,13 @@ html, body {
   width: 10px !important;
   height: 10px !important;
   border-radius: 100%;
+  background-color: unset !important;
+  border: 1px solid white !important;
   margin: 0 11px !important;
 }
 
 .carousel-indicators .active {
-  background-color: white;
+  background-color: white !important;
 }
 
 .carousel-inner {
